@@ -1,51 +1,60 @@
-# Welcome to your Expo app 👋
+📱 Pokédex Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A high-performance and user-friendly Pokédex mobile application built using React Native and Expo, leveraging real-time data from the PokéAPI. The app allows users to explore Pokémon, view detailed information including stats, types, and descriptions, all within a clean and responsive UI.
 
-## Get started
+🚀 Features
+🔍 Browse Pokémon with dynamic data fetching
+📊 View detailed stats with visual progress bars
+🎨 Type-based dynamic UI styling
+📖 Pokémon descriptions (flavor text)
+📱 Clean and responsive mobile interface
+🛠️ Tech Stack
+React Native
+Expo
+Expo Router (File-based Routing)
+JavaScript (ES6+)
+PokéAPI (REST API)
+📂 Project Structure
+app/
+ ├── index.jsx        # Home screen (Pokémon list)
+ ├── details.jsx      # Pokémon details screen
+ ├── _layout.jsx      # Navigation layout
+⚙️ Installation & Setup
+Clone the repository
+git clone https://github.com/your-username/pokedex-app.git
+cd pokedex-app
+Install dependencies
+npm install
+Start the development server
+npx expo start
+📱 Run the App
 
-1. Install dependencies
+You can run the app using:
 
-   ```bash
-   npm install
-   ```
+Expo Go
+Android Emulator
+iOS Simulator
+🌐 API Used
+PokéAPI – https://pokeapi.co/
+📸 Screenshots
 
-2. Start the app
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/f10d9d46-586b-4397-81bb-8d31caa048b9" />
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/82a9d1b8-9a15-4c47-be12-847b64df861b" />
 
-   ```bash
-   npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+💡 Key Highlights
+Dynamic data fetching using REST APIs
+Type-based UI theming for enhanced UX
+Modular and scalable code structure
+Clean and maintainable code practices
+🤝 Contributing
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+📄 License
 
-## Get a fresh project
+This project is open-source and available under the MIT License.
 
-When you're ready, run:
+👨‍💻 Author
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# Pokedex
+Addanki Adinarayana AnandSwaroop
